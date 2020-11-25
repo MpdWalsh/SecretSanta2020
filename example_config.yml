@@ -1,0 +1,26 @@
+# IMPORTANT: this file must be renamed to config.yaml
+
+# email address used to alert participants
+# email/password should be setup in your device's keyring
+# can be done easily using Python and Yagmail
+# https://yagmail.readthedocs.io/en/latest/api.html#authentication
+sender: ''
+
+# everyone participating in the exchange
+# only name and email are required
+participants:
+#  - name: 'Name'
+#    email: 'email address'
+#    wishlist: 'link to wishlist'
+
+  'Remy':
+    email: 'remy@cat-mail.ca'
+    wishlist: 'thingscatswant.ca/Remy'
+
+  'Vanellope':
+    email: 'vanellope@cat-mail.ca'
+    wishlist: 'thingscatswant.ca/Vanellope'
+
+  'Tiffany':
+    email: 'tiffany@cat-mail.ca'
+    wishlist: 'thingscatswant.ca/Tiffany'
